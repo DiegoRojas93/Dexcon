@@ -8,6 +8,14 @@
 	src: url('./fonts/Raleway-Regular.ttf')
 }
 
+h1, h2, h3, h4, h5, h6{
+	font-family: "Gothic";
+}
+
+p {
+	font-family: "Raleway";
+}
+
 .hero{
 	background: url('./img/segunda.jpg') center no-repeat;
 	background-size: cover;
@@ -19,7 +27,7 @@
 }
 
 .hero__container h1{
-	font-family: "Gothic";
+	font-weight: 600;
 }
 
 .navbar-brand{
